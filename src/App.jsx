@@ -2,7 +2,7 @@
 const api=(import.meta.env.VITE_API_BASE_URL||'').replace(/\/$/,'');
 const careers=[
 ['Hotels & Hospitality','Hospitality','Build a people-first career in hotels, resorts, restaurants and guest services.','https://static.wixstatic.com/media/2012ff_0afd566d7dd049fcbbd90ea738fea2e6~mv2.jpeg/v1/fill/w_854%2Ch_600%2Cfp_0.52_0.33%2Cq_85%2Cusm_0.66_1.00_0.01%2Cenc_avif%2Cquality_auto/WhatsApp%20Image%202024-04-05%20at%2012_41_34%20PM.jpeg',Hotel,'Front office Â· Food service Â· Guest relations'],
-['Sales & Customer Service','Sales','Develop communication, product knowledge and customer relationship skills.','https://images.rawpixel.com/image_social_landscape/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI1LTA0L3NyLWltYWdlLTA5MDQyMDI1LXRoYTEzLXMtMDk1XzEuanBn.jpg',BriefcaseBusiness,'Retail sales Â· Field sales Â· Customer support'],
+['Sales & Customer Service','Sales','Develop communication, product knowledge and customer relationship skills.','/images/sales-customer-service.jpg',BriefcaseBusiness,'Retail sales Â· Field sales Â· Customer support'],
 ['Elevator Technicians','Technical trades','Explore installation, maintenance and safe servicing careers.','https://www.voltas.in/storage/sustainable-livelihood-overview/5.webp',Wrench,'Installation support Â· Maintenance Â· Service'],
 ['AC & HVAC Technicians','Technical trades','Learn practical skills for air-conditioning, cooling and building services.','https://www.pronearme.in/_next/image?q=75&url=https%3A%2F%2Fres.cloudinary.com%2Fdqjlnhxk9%2Fimage%2Fupload%2Fv1779981409%2Fhomepros%2Fuploads%2Farticles%2Fiti_mechanic_rac_workshop_training_718253871a.jpg&w=2048',Wrench,'HVAC assistant Â· Installation Â· Maintenance'],
 ['Housekeeping & Facilities','Facilities','Turn attention to detail and service standards into a professional career.','https://static-bestcolleges.tosshub.com/2024/News/x3GkoCxnOTCXHwLe6Z6D8hRMCz0ruiKwU7Cc20Uo.jpg',CheckCircle2,'Housekeeping Â· Facility operations Â· Team leader']];
@@ -21,6 +21,7 @@ return <><header className="header"><a className="brand" href="#home"><span clas
 <section className="closing"><div className="wrap closing-inner"><div><small>THE MAHAYOUTH PROMISE</small><h2>Every young person deserves a fair chance<br/>to <em>move forward.</em></h2></div><a href="#register">Take the first step <ArrowRight/></a></div></section></main>
 <footer><div className="wrap foot"><a className="brand" href="#home"><span className="mark">MY</span><span><b>MahaYouth</b><small>SKILLS. OPPORTUNITY. PROGRESS.</small></span></a><p>Connecting young people, practical skills and employment opportunities.</p><div className="footlinks"><a href="#careers">Careers</a><a href="#skillbridge">SkillBridge</a><a href="#employers">Employers</a><a href="#register">Contact</a></div></div><div className="wrap footbottom"><span>Â© {new Date().getFullYear()} MahaYouth. All rights reserved.</span><span>Built around opportunity, skills and dignity.</span></div></footer></>}
 export default App;
+
 
 
 
